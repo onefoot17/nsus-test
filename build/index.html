@@ -13,44 +13,50 @@
     <body class="d-flex flex-column h-100">
         <header>
             <!-- Navigation -->
-            <nav class="navbar justify-content-center">
+            <nav class="navbar justify-content-end">
                 <a class="logo p-3" href=""><img src="/img/logo.png" /></a>
 
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 1</a>
-                    </li>
+                <button class="navbar-toggler navbar-mobile" type="button">
+                    <span class="navbar-toggler-icon">Menu</span>
+                </button>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 2</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 3</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 4</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 5</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 6</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Nav 7</a>
-                    </li>
-                </ul>
+                <div class="navbar-mobile-collapse navbar-mobile-collapse">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 1</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 2</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 3</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 4</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 5</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 6</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Nav 7</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
         <main class="container-fluid flex-shrink-0">
             <section class="accordion text-center">
-                <section class="card-container p-3">
+                <section class="card-container pb-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <button class="card-header btn-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><h2>What is Lorem Ipsum?</h2></button>
 
@@ -58,7 +64,7 @@
                     </section>
                 </section>
 
-                <section class="card-container p-3">
+                <section class="card-container pb-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <button class="card-header btn-block" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><h2>Where does it come from?</h2></button>
 
@@ -66,7 +72,7 @@
                     </section>
                 </section>
 
-                <section class="card-container p-3">
+                <section class="card-container pb-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <button class="card-header btn-block" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h2>Why do we use it?</h2></button>
 
@@ -74,7 +80,7 @@
                     </section>
                 </section>
 
-                <section class="card-container p-3">
+                <section class="card-container pb-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <button class="card-header btn-block" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h2>Where can I get some?</h2></button>
 
@@ -84,7 +90,7 @@
             </section>
 
             <section class="cards row text-center">
-                <section class="card-container col-md-3 p-3">
+                <section class="card-container pb-3 col-md-3 p-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <section class="card-image mb-3"><img class="img-fluid" src="/img/card.png" /></section>
 
@@ -92,7 +98,7 @@
                     </section>
                 </section>
 
-                <section class="card-container col-md-3 p-3">
+                <section class="card-container pb-3 col-md-3 p-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <section class="card-image mb-3"><img class="img-fluid" src="/img/card.png" /></section>
 
@@ -100,7 +106,7 @@
                     </section>
                 </section>
 
-                <section class="card-container col-md-3 p-3">
+                <section class="card-container pb-3 col-md-3 p-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <section class="card-image mb-3"><img class="img-fluid" src="/img/card.png" /></section>
 
@@ -108,7 +114,7 @@
                     </section>
                 </section>
 
-                <section class="card-container col-md-3 p-3">
+                <section class="card-container pb-3 col-md-3 p-3">
                     <section class="card d-flex flex-column align-items-center p-3">
                         <section class="card-image mb-3"><img class="img-fluid" src="/img/card.png" /></section>
 
@@ -134,5 +140,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 
         <script src="build/js/bootstrap.bundle-min.js"></script>
+
+        <script src="build/js/scripts-min.js"></script>
     </body>
 </html>

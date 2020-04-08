@@ -14,11 +14,11 @@
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/card";
 @import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/buttons";
 
 // @import "../node_modules/bootstrap/scss/code";
 // @import "../node_modules/bootstrap/scss/tables";
 // @import "../node_modules/bootstrap/scss/forms";
-@import "../node_modules/bootstrap/scss/buttons";
 // @import "../node_modules/bootstrap/scss/dropdown";
 // @import "../node_modules/bootstrap/scss/button-group";
 // @import "../node_modules/bootstrap/scss/input-group";
@@ -40,6 +40,11 @@
 // @import "../node_modules/bootstrap/scss/spinners";
 // @import "../node_modules/bootstrap/scss/print";
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
     background-color: white;
     color: black;
@@ -57,6 +62,46 @@ main {
     background-color: var(--red);
     border: 1px solid white;
     color: white;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+@include media-breakpoint-down(sm) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        background-color: var(--red);
+        color: white;
+        display: block;
+
+        &-icon {
+            width: auto;
+            height: auto;
+        }
+    }
+    
+    .navbar-mobile-collapse {
+        background-color: black;
+        position: fixed;
+        top: 98px;
+        bottom: 0;
+        left: 100%;
+        overflow-y: auto;
+        text-align: right;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        visibility: hidden;
+        width: 70%;
+    }
+
+    .navbar-mobile-collapse.show {
+        transform: translateX(-100%);
+        visibility: visible;
+        z-index: 2000;
+    }
 }
 
 .accordion {
