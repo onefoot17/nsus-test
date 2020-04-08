@@ -37,6 +37,32 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/node_modules/bootstrap/scss/_buttons.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/bootstrap/scss/_buttons.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/_card.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/bootstrap/scss/_card.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/node_modules/bootstrap/scss/_functions.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -137,6 +163,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/build/node_modules/bootstrap/scss/_root.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/_transitions.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/bootstrap/scss/_transitions.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -867,6 +906,44 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/src/js/bootstrap.bundle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/bootstrap.bundle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/js/bootstrap.bundle.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/js/bootstrap.bundle.js.map",
+		"oF": 0
+		},
+	"/src/js/collapse.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/collapse-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/js/collapse.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/js/collapse.js.map",
+		"oF": 0
 		},
 	"/src/js/scripts.js": {
 		"bF": 0,
