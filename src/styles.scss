@@ -49,6 +49,10 @@ p:last-child {
     margin-bottom: 0;
 }
 
+main {
+    padding-bottom: 72px;
+}
+
 .nav-link {
     background-color: var(--red);
     border: 1px solid white;
@@ -86,4 +90,14 @@ p:last-child {
 footer {
     background-color: var(--dark);
     color: white;
+}
+
+@include media-breakpoint-up(lg) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+    }
 }
