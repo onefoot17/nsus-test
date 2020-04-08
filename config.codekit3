@@ -102,6 +102,32 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"/node_modules/bootstrap/scss/_nav.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/bootstrap/scss/_nav.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/bootstrap/scss/_navbar.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/bootstrap/scss/_navbar.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"/node_modules/bootstrap/scss/_reboot.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -598,6 +624,17 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"/src/img/logo.png": {
+		"ft": 32768,
+		"iS": 2304,
+		"oA": 0,
+		"oAP": "/build/img/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/src/styles.scss": {
 		"aP": 1,
